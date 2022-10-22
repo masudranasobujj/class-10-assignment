@@ -1,32 +1,262 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+*{
 	margin: 0px;
 	padding: 0px;
 	box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
-
 }
-.navbar button span{
-	width: 50px;
-	height: 2px;
-	background-color: black;
-	display: block;
-	margin: 10px 0px;
-}
-
-div [id="mscreatemodal"]{
-	background-color: #3f51b5cf;
+body{
+	font-family: 'Open Sans', sans-serif;
 }
 
 
-.navbar-dark .navbar-nav .nav-link {
-    font-size: 30px;
-    color: #000;
-    font-weight: 400;
-    line-height: 40px;
-    letter-spacing: 1px;
+/*********header**********/
+nav{
+	background-color: #002333;
+}
+
+nav a img{
+	width: 280px;
+}
+.navbar-nav .nav-item a{
+	color: #fff;
+	font-size: 20px;
+	padding: 3px 18px !important;
+	font-weight: 400;
+	margin-left: 15px;
+	transition-duration: 0.3s;
+}
+.navbar-nav .nav-item a:hover{
+	color: rgba(0,255,132,1);
+}
+.navbar-nav .nav-item:last-child a{
+	background-color: rgba(0,255,132,1);
+	color: #000;
+	border-radius: 10px;
+	transition-duration: 0.3s;
+	display: inline-block;
+}.navbar-nav .nav-item:last-child a:hover{
+	background-color: rgb(0 255 132 / 76%);
+}
+/*********header**********/
+
+/*******banner section start*********/
+.banner-section{
+	background: url(../images/470a8b76-stocksy-txp62f374e5huw200-medium-1073249_1000000000000000000028.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
+	background-attachment: fixed;
+	padding: 180px 0px;
+	background-color: #000000b0;
+	background-blend-mode: multiply;
+}
+.banner-section h3{
+    color: rgb(0, 255, 132);
+    font-size: 15px;
+    letter-spacing: 3.1px;
+    font-weight: 700;
+}
+.banner-section h1{
+    color: #fff;
+    font-weight: 500;
+    font-family: initial;
+    font-size: 50px;
+    width: 750px;
+    margin: auto;
+    font-weight: bolder;
+}
+.banner-section h2{
+    font-size: 20px;
+    font-weight: 300;
+    width: 500px;
+    margin: auto;
+    color: #fff;
+}
+.banner-section h4{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+.banner-section a{
+    font-size: 18px;
+    color: #fff;
+    border: 1px solid;
+    padding: 10px 0px;
+    display: block;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 700;
+    margin-bottom: 10px;
     transition-duration: 0.3s;
 }
-.navbar-dark .navbar-nav .nav-link:hover{
-	color: rgb(255 255 255);
+.banner-section .stbutton{
+    border-color: #fff;
 }
+.banner-section .stbutton:hover {
+
+color: #fff;
+
+background-color: #ffffff47;
+}
+.banner-section .ndbutton{
+    border-color: rgb(0, 255, 132);
+    background-color: rgb(0, 255, 132);
+    color: #002333;
+}
+.banner-section .ndbutton:hover {
+
+color: #002333d6;
+
+background-color: rgb(0 255 132 / 81%);
+}
+/*******banner section end*********/
+
+/*******Customar Section Start*********/
+.customar-section{}
+.customar-section h1{
+    font-size: 25px;
+    color: #5e5e5e;
+    font-weight: 500;
+    letter-spacing: 1.0px;
+}
+/*******Customar Section End*********/
+
+/*******Text Area Section Start*********/
+.text-area-section{
+    background-color: #F5F5F5;
+    padding: 80px 0px;
+}
+.text-area-section h1{
+    font-size: 40px;
+    font-weight: 400;
+    color: #000000;
+    margin-bottom: 10px;
+}
+.text-area-section span{	
+	background: #0d6efd;	
+	height: 5px;	
+	width: 150px;	
+	display: inline-block;	
+	border-radius: 10px;
+}
+.text-area-section p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #494949;
+}
+.text-area-section button{
+	font-size: 18px;
+	font-weight: 500;
+	color: #0561e7;
+	transition-duration: 0.3s;
+}
+.text-area-section button:hover{
+	color: #ffffff;
+	background-color: #0d6efd;
+}
+/*******Text Area Section End*********/
+
+
+
+/*******program-section start*********/
+.program-section{}
+.program-section h1{}
+.program-section span{
+	background: #0d6efd;	
+	height: 5px;	
+	width: 150px;	
+	display: block;	
+	border-radius: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.program-section p{
+	font-size: 18px;
+    font-weight: 400;
+    color: #494949;
+}
+.program-section button{
+	font-size: 18px;
+	font-weight: 500;
+	color: #0561e7;
+	transition-duration: 0.3s;
+}
+.program-section button:hover{
+	color: #ffffff;
+	background-color: #0d6efd;
+}
+/*******program-section end*********/
+
+/*******video-section start*********/
+.video-section{
+	background-color: #3722D3;
+}
+.video-section h1{	
+	font-size: 35px;
+	margin-bottom: 35px;	
+	font-weight: 400;
+}
+.video-section iframe{}
+/*******video-section end*********/
+
+
+/*******client review section start*********/
+
+.client-review-section{}
+.client-review-section h5{
+    color: #4b4b4b;
+    font-size: 18px;
+    font-weight: 400;
+}
+.client-review-section h6{
+    color: #888;
+    font-size: 16px;
+    font-weight: 400;
+}
+/*******client review section end*********/
+
+
+/*******footer section start*********/
+footer{
+	background-color: rgba(0,35,51,1);
+}
+.footer-content h1{}
+.footer-content button{
+    background-color: rgba(0,255,132,1) !important;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 18px;
+    color: #000;
+}.footer-content button:hover{
+    background-color: rgb(0 255 132 / 69%) !important;
+    color: #000000d9;
+}
+.footer-content button{
+    color: #000;
+}
+.footer-content h1{}
+.footer-content li{
+	border-right: 1px solid;
+}
+.footer-content li:last-child{
+	border-right: none;
+}
+.footer-content li a{
+	font-size: 16px;
+	padding: 0px 5px;
+	color: #fff;
+	text-decoration: underline;
+}
+.footer-content li a:hover{
+	color: #fff;
+}
+.footer-content h5{
+    font-size: 16px;
+    font-weight: 300;
+}
+/*******footer section end*********/
+
+
